@@ -131,4 +131,4 @@ jupyter notebook Project-SML1-Regression.ipynb
 ## 👤 Author
 
 **Marc Ntjam** 
-> Update with your GitHub profile and contact links.
+> Feel free to connect or open an issue with questions and suggestions.
