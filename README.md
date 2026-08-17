@@ -100,34 +100,6 @@ Feature coefficients (sorted by influence on predicted price):
 - 📈 **Market & recency help.** Positive `MarketTrend` and newer `YearBuilt` nudge prices upward, though with smaller effects.
 - ⚠️ **Watch the counter-intuitive signs.** `LotSize` and `Location` carry negative coefficients — likely reflecting non-linear effects, area-specific demand, or the label-encoding of location. These are good candidates for deeper feature engineering.
 
-## 📁 Repository Structure
-
-```
-├── Project-SML1-Regression.ipynb            # Main analysis notebook
-├── house_price_prediction_dataset.csv       # Dataset (1,500 property records)
-├── Case Study - Regression.pdf              # Project brief
-└── README.md
-```
-
-## 🚀 Getting Started
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/<your-username>/MapleValley-HousePrice-Regression.git
-cd MapleValley-HousePrice-Regression
-
-# 2. (Optional) create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
-
-# 3. Install dependencies
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
-
-# 4. Launch the notebook
-jupyter notebook Project-SML1-Regression.ipynb
-```
-
-> **Note:** update the dataset path in the notebook to point at your local copy of `house_price_prediction_dataset.csv` (e.g. place it in a `data/` folder and load with a relative path).
 
 ## 🔮 Future Improvements
 
